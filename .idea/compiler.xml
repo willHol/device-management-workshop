@@ -2,27 +2,40 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true" />
-      <profile name="Maven default annotation processors profile" enabled="true">
+      <profile name="Annotation profile for device-management-workshop" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.4.2.Final/mapstruct-processor-1.4.2.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.4.2.Final/mapstruct-1.4.2.Final.jar" />
+        </processorPath>
         <module name="device-management-pt1" />
+        <module name="device-management-pt2" />
+        <module name="device-management-pt4" />
+        <module name="device-management-pt5" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="device-management" target="11" />
-      <module name="device-management (1)" target="11" />
-      <module name="device-management-p1" target="11" />
       <module name="device-management-pt1" target="11" />
+      <module name="device-management-pt2" target="11" />
+      <module name="device-management-pt2 (1)" target="11" />
+      <module name="device-management-pt4" target="11" />
+      <module name="device-management-pt5" target="11" />
+      <module name="device-management-pt5 (1)" target="11" />
+      <module name="device-management-workshop" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="device-management" options="-parameters" />
-      <module name="device-management (1)" options="-parameters" />
-      <module name="device-management-p1" options="-parameters" />
       <module name="device-management-pt1" options="-parameters" />
+      <module name="device-management-pt2" options="-parameters" />
+      <module name="device-management-pt2 (1)" options="-parameters" />
+      <module name="device-management-pt4" options="-parameters" />
+      <module name="device-management-pt5" options="-parameters" />
+      <module name="device-management-pt5 (1)" options="-parameters" />
     </option>
   </component>
 </project>

@@ -4,5 +4,9 @@
     <file url="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.6.0/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/device-management-pt1/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/device-management-pt2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/device-management-pt3/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/device-management-pt4/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/device-management-pt5/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/device-management-pt6/src/main/java" charset="UTF-8" />
   </component>
 </project>
