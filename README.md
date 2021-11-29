@@ -13,6 +13,10 @@ of the EROAD technical *stack*, showcased in the context of a basic **REST** mic
 6. Project Lombok
 7. H2 Database Engine
 
+## System Dependencies
+* JDK-11
+* Maven
+
 ## How to build
 You will need to be connected to the VPN, so that you can access Nexus to pull the dependencies:
 ```bash
