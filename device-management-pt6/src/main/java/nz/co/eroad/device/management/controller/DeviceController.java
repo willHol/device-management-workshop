@@ -4,7 +4,6 @@ import lombok.RequiredArgsConstructor;
 import nz.co.eroad.device.management.api.DevicesApi;
 import nz.co.eroad.device.management.model.DeviceDTO;
 import nz.co.eroad.device.management.service.DeviceService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;

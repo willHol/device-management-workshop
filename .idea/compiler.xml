@@ -14,17 +14,21 @@
         </processorPath>
         <module name="device-management-pt1" />
         <module name="device-management-pt2" />
+        <module name="device-management-pt3" />
         <module name="device-management-pt4" />
         <module name="device-management-pt5" />
+        <module name="device-management-pt6" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="device-management-pt1" target="11" />
       <module name="device-management-pt2" target="11" />
       <module name="device-management-pt2 (1)" target="11" />
+      <module name="device-management-pt3" target="11" />
       <module name="device-management-pt4" target="11" />
       <module name="device-management-pt5" target="11" />
       <module name="device-management-pt5 (1)" target="11" />
+      <module name="device-management-pt6" target="11" />
       <module name="device-management-workshop" target="8" />
     </bytecodeTargetLevel>
   </component>
@@ -33,9 +37,11 @@
       <module name="device-management-pt1" options="-parameters" />
       <module name="device-management-pt2" options="-parameters" />
       <module name="device-management-pt2 (1)" options="-parameters" />
+      <module name="device-management-pt3" options="-parameters" />
       <module name="device-management-pt4" options="-parameters" />
       <module name="device-management-pt5" options="-parameters" />
       <module name="device-management-pt5 (1)" options="-parameters" />
+      <module name="device-management-pt6" options="-parameters" />
     </option>
   </component>
 </project>
